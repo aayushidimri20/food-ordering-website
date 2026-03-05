@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="payment-page">
+
+<h2>Select Payment Method</h2>
+
+<div class="payment-options">
+
+<button class="pay-btn" data-method="upi">UPI</button>
+
+<button class="pay-btn" data-method="card">Debit / Credit Card</button>
+
+<button class="pay-btn" data-method="cod">Cash on Delivery</button>
+
+</div>
+
+
+<!-- UPI SECTION -->
+<div id="upiSection" class="pay-section">
+<input type="text" id="upiId" placeholder="Enter UPI ID (example@upi)">
+<button class="btn" id="payUpi">Pay via UPI</button>
+</div>
+
+
+<!-- CARD SECTION -->
+<div id="cardSection" class="pay-section">
+
+<input type="text" id="cardNumber" placeholder="Card Number">
+
+<input type="text" id="cardName" placeholder="Card Holder Name">
+
+<div class="card-row">
+
+<input type="text" id="expiry" placeholder="MM/YY" class="small-input">
+
+<input type="text" id="cvv" placeholder="CVV" class="small-input">
+
+</div>
+
+<button class="btn" id="payCard">Pay Now</button>
+
+</div>
+
+
+<!-- COD SECTION -->
+<div id="codSection" class="pay-section">
+
+<p>You will pay when the order is delivered.</p>
+
+
+
+</div>
+
+
+<p id="paymentMessage"></p>
+
+
+<a href="order.html" class="btn">Confirm Order</a>
+</div>
+
+<script src="payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<section class="contact-page">
+  <div class="wrapper">
+
+    <h2 class="text-center">Contact Us</h2>
+
+    <!-- CONTACT DETAILS -->
+    <div class="contact-details text-center">
+      <p><i class="fa-solid fa-location-dot"></i> Karnaprayag, Uttarakhand</p>
+      <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+      <p><i class="fa-solid fa-envelope"></i> foodieWe@email.com</p>
+    </div>
+
+    <!-- MESSAGE FORM -->
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Your Name" required>
+        <input type="email" id="contactEmail" placeholder="Email" required autocomplete="off">
+        <textarea id="contactMessageInput" placeholder="Message" required autocomplete="off"></textarea>
+        <div class="form-buttons">
+          <button type="submit" class="btn send-btn">Send Message</button>
+          <a href="index.html" class="btn back-btn">Back to Home</a>
+        </div>
+      </form>
+      <p id="contactMessage" class="text-center"></p>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

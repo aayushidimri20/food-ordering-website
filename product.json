@@ -1,50 +1,59 @@
+
 [
     {
         "id": 1,
-        "name": "Extra Cheese Burger",
-        "price": "₹9.67",
-        "image": "image/burger.png"
+        "name": "Cheese Burger",
+        "price": "₹90.67",
+        "image": "image/burger.png",
+        "category": "veg"
     },
     {
         "id": 2,
         "name": "Veggie Pizza",
-        "price": "₹10.99",
-        "image": "image/pizza.png"
+        "price": "₹200.99",
+        "image": "image/pizza.png",
+         "category": "veg"
     },
     {
         "id": 3,
         "name": "Fried Chicken",
-        "price": "₹13.45",
-        "image": "image/fried-chicken.png"
+        "price": "₹150.45",
+        "image": "image/fried-chicken.png",
+          "category": "non-veg"
     },
     {
         "id": 4,
         "name": "Chicken Roll",
-        "price": "₹7.50",
-        "image": "image/chicken-roll.png"
+        "price": "₹70.50",
+        "image": "image/chicken-roll.png",
+        "category": "non-veg"
     },
     {
         "id": 5,
         "name": "Sub Sandwich",
-        "price": "₹6.99",
-        "image": "image/sandwich.png"
+        "price": "₹60.99",
+        "image": "image/sandwich.png",
+        "category": "veg"
     },
     {
         "id": 6,
-        "name": "Chicken Lasagna",
-        "price": "₹16.45",
-        "image": "image/lasagna.png"
+        "name": "Lasagna",
+        "price": "₹350.45",
+        "image": "image/lasagna.png",
+         "category": "non-veg"
     },
     {
         "id": 7,
-        "name": "Italian Spaghetti",
-        "price": "₹7.65",
+        "name": "Spaghetti",
+        "price": "₹160.65",
         "image": "image/spaghetti.png"
+    ,  "category": "veg"
     },
     {
         "id": 8,
         "name": "Spring Roll",
-        "price": "₹9.31",
-        "image": "image/spring-roll.png"
+        "price": "₹110.31",
+        "image": "image/spring-roll.png",
+         "category": "veg"
     }
 ]
